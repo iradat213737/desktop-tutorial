@@ -1,5 +1,23 @@
-# Welcome to GitHub Desktop!
+# Node.js & Passport Login
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+This is a user login and registration app using Node.js, Express, Passport, Mongoose, EJS and some other packages.
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+### Version: 2.0.0
+
+### Usage
+
+```sh
+$ npm install
+```
+
+```sh
+$ npm start
+# Or run with Nodemon
+$ npm run dev
+
+# Visit http://localhost:5000
+```
+
+### MongoDB
+
+Open "config/keys.js" and add your MongoDB URI, local or Atlas
